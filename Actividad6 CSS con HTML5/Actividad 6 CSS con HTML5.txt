@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Cuidado Personal</title>
+ <style>
+  body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background-color: white;
+  }
+  
+  header {
+   background-color: lightblue;
+   padding: 20px;
+   text-align: center;
+  }
+  
+  nav {
+   background-color: #ddd;
+   padding: 10px;
+   text-align: center;
+  }
+  
+  nav a {
+   color: black;
+   margin: 0 10px;
+   text-decoration: none;
+  }
+  
+  main {
+   padding: 20px;
+  }
+  
+  article {
+   padding: 15px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+  }
+  
+  h2 {
+   color: black;
+  }
+  
+  footer {
+   background-color: lightblue;
+   text-align: center;
+   padding: 15px;
+  }
+ </style>
+</head>
+<body>
+ <header>
+  <h1>Cuidado Personal</h1>
+  <p>Aprende a cuidarte mejor</p>
+ </header>
+ 
+ <nav>
+  <a href="#">Inicio</a>
+  <a href="#">Consejos</a>
+  <a href="#">Salud</a>
+ </nav>
+ 
+ <main>
+   <article>
+    <h2>¿Qué es el Cuidado Personal?</h2>
+    <p>El cuidado personal es todo lo que haces para estar sano y sentirte bien. Incluye bañarte, lavarte los dientes, comer bien, hacer ejercicio y descansar. También significa cuidar tu mente y tus emociones. Es como darle mantenimiento a tu cuerpo, igual que cuidas tus cosas favoritas. Cuando te cuidas, te sientes mejor contigo mismo y puedes disfrutar más la vida.</p>
+   </article>
+   
+   <article>
+    <h2>¿Por qué es tan importante?</h2>
+    <p>Cuidarte te ayuda a sentirte mejor y tener más energía durante todo el día. También previenes enfermedades como gripes, caries o problemas de estómago. Cuando te cuidas bien, tu cuerpo funciona mejor y tu mente está más clara. Te sientes más seguro de ti mismo y puedes concentrarte mejor en la escuela o el trabajo. Además, las personas que se cuidan suelen vivir más años y con mejor calidad de vida.</p>
+   </article>
+   
+   <article>
+    <h2>Higiene Personal Diaria</h2>
+    <p>La higiene es muy importante para tu salud. Báñate todos los días con agua y jabón, especialmente después de hacer ejercicio. Lava tus dientes dos veces al día, en la mañana y antes de dormir, durante al menos 2 minutos. Usa hilo dental para limpiar entre los dientes. Lávate las manos antes de comer y después de ir al baño. Córtate las uñas regularmente y mantenlas limpias. Lava tu cabello 2 o 3 veces por semana. Usa desodorante todos los días y ropa limpia.</p>
+   </article>
+   
+   <article>
+    <h2>Alimentación Saludable</h2>
+    <p>Come frutas y verduras todos los días, de diferentes colores. Toma al menos 8 vasos de agua al día para mantenerte hidratado. Desayuna siempre, es la comida más importante del día. Evita comer muchas golosinas, refrescos y comida chatarra. Come pescado, pollo, huevos y legumbres para tener proteínas. Los cereales integrales como el pan integral y la avena son muy buenos. Trata de comer a las mismas horas cada día. No te saltes comidas y mastica bien los alimentos.</p>
+   </article>
+   
+   <article>
+    <h2>Ejercicio y Actividad Física</h2>
+    <p>Haz ejercicio al menos 30 minutos al día. Puede ser caminar, correr, nadar, bailar o jugar deportes. El ejercicio fortalece tus músculos y huesos. También te ayuda a dormir mejor y a estar de buen humor. Si no tienes tiempo, puedes subir escaleras en lugar de usar el elevador, o caminar en lugar de usar el coche. Estira tu cuerpo todos los días para mantenerte flexible. El ejercicio también reduce el estrés y te ayuda a pensar mejor.</p>
+   </article>
+   
+   <article>
+    <h2>Descanso y Sueño</h2>
+    <p>Duerme 8 horas cada noche para que tu cuerpo descanse y se recupere. Ve a la cama a la misma hora todos los días. Apaga tu celular, tablet y TV una hora antes de dormir porque la luz de las pantallas no te deja dormir bien. Tu cuarto debe estar oscuro, silencioso y fresco. Evita comer mucho antes de dormir. Si duermes bien, tendrás más energía, estarás de mejor humor y podrás concentrarte mejor en tus actividades.</p>
+   </article>
+   
+   <article>
+    <h2>Cuidado de la Piel</h2>
+    <p>Lava tu cara dos veces al día con un jabón suave. Usa protector solar todos los días, incluso cuando está nublado, para proteger tu piel del sol. Hidrata tu piel con crema después de bañarte. Bebe mucha agua para mantener tu piel saludable. Si tienes acné, no te toques los granitos porque pueden dejar manchas. Cambia tu funda de almohada seguido porque acumula bacterias. La piel es el órgano más grande de tu cuerpo y necesita cuidado especial.</p>
+   </article>
+   
+   <article>
+    <h2>Salud Mental y Emocional</h2>
+    <p>Tu mente también necesita cuidado. Tómate tiempo para relajarte y hacer cosas que te gustan. Habla con tus amigos y familia cuando te sientas triste o preocupado. Está bien pedir ayuda cuando la necesitas. Practica respirar profundo cuando estés nervioso. Escribe en un diario sobre tus sentimientos. Haz cosas que te hagan reír y ser feliz. Aprende a decir "no" cuando algo no te hace bien. Recuerda que está bien no estar bien todo el tiempo.</p>
+   </article>
+   
+   <article>
+    <h2>Rutina de Mañana</h2>
+    <p>Empieza el día despertándote a la misma hora. Lávate la cara y los dientes. Toma un vaso de agua para hidratarte. Haz algunos estiramientos para despertar tu cuerpo. Desayuna algo nutritivo como frutas, cereal o huevos. Péinate y vístete con ropa limpia. Si tienes tiempo, haz 5 minutos de ejercicio. Una buena rutina de mañana te prepara para tener un gran día.</p>
+   </article>
+   
+   <article>
+    <h2>Rutina de Noche</h2>
+    <p>En la noche, cena algo ligero 2 horas antes de dormir. Prepara tu ropa y mochila para el día siguiente. Lávate los dientes y la cara. Toma un baño con agua tibia para relajarte. Lee un libro o escucha música tranquila. Apaga todos tus dispositivos electrónicos. Piensa en 3 cosas buenas que te pasaron en el día. Acuéstate a la misma hora siempre. Dormir bien es tan importante como comer bien.</p>
+   </article>
+   
+   <article>
+    <h2>Hábitos que Debes Evitar</h2>
+    <p>No fumes ni tomes alcohol, son muy malos para tu salud. Evita pasar muchas horas sentado frente a la computadora o TV. No te compares con otras personas en redes sociales. No te saltes comidas ni hagas dietas extremas. Evita tomar muchas bebidas con cafeína o azúcar. No te desveles seguido porque afecta tu salud. No guardes tus emociones, habla de lo que sientes. Eliminar estos malos hábitos mejorará mucho tu vida.</p>
+   </article>
+   
+   <article>
+    <h2>Beneficios de Cuidarte Bien</h2>
+    <p>Cuando te cuidas bien, te sentirás más feliz y con mejor ánimo. Tendrás mucha más energía para hacer tus actividades. Dormirás mejor y te despertarás descansado. Te enfermarás menos y te recuperarás más rápido. Tu piel se verá más bonita y saludable. Tendrás mejor concentración en tus estudios o trabajo. Te sentirás más seguro y con mejor autoestima. Vivirás más años y con mejor calidad. Podrás ayudar mejor a los demás cuando tú estés bien. ¡Cuidarte es la mejor inversión que puedes hacer!</p>
+   </article>
+ </main>
+ 
+ <footer>
+  <p>cuidadopersonal.com</p>
+ </footer>
+</body>
+</html>
