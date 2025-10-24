@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>Calculadora de Índice de Masa Corporal (IMC)</h1>
+    
+    <form onsubmit="calcularIMC(); return false;">
+        <div>
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" step="0.1" min="1" required>
+        </div>
+        
+        <div>
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" step="0.01" min="0.5" max="2.5" required>
+        </div>
+        
+        <button type="submit">Calcular IMC</button>
+    </form>
+    
+    <div id="resultado"></div>
+    
+    <h3>Tabla de Clasificación del IMC</h3>
+    <table border="1">
+        <tr>
+            <th>IMC</th>
+            <th>Clasificación</th>
+        </tr>
+        <tr>
+            <td>Menos de 18.5</td>
+            <td>Bajo peso</td>
+        </tr>
+        <tr>
+            <td>18.5 - 24.9</td>
+            <td>Peso normal</td>
+        </tr>
+        <tr>
+            <td>25 - 29.9</td>
+            <td>Sobrepeso</td>
+        </tr>
+        <tr>
+            <td>30 o más</td>
+            <td>Obesidad</td>
+        </tr>
+    </table>
+
+    <script>
+        function calcularIMC() {
+            // Obtener valores del formulario
+            const peso = parseFloat(document.getElementById('peso').value);
+            const altura = parseFloat(document.getElementById('altura').value);
+            
+            // Validar entrada
+            if (isNaN(peso) || isNaN(altura) || altura <= 0) {
+                alert('Por favor, ingresa valores válidos para peso y altura.');
+                return;
+            }
+            
+            // Calcular IMC
+            const imc = peso / (altura * altura);
+            const imcRedondeado = imc.toFixed(2);
+            
+            // Determinar clasificación
+            let clasificacion = '';
+            if (imc < 18.5) {
+                clasificacion = 'Bajo peso';
+            } else if (imc >= 18.5 && imc < 25) {
+                clasificacion = 'Peso normal';
+            } else if (imc >= 25 && imc < 30) {
+                clasificacion = 'Sobrepeso';
+            } else {
+                clasificacion = 'Obesidad';
+            }
+            
+            // Mostrar resultado
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = `
+                <h2>Resultado:</h2>
+                <p><strong>IMC:</strong> ${imcRedondeado}</p>
+                <p><strong>Clasificación:</strong> ${clasificacion}</p>
+            `;
+        }
+    </script>
+</body>
+</html>

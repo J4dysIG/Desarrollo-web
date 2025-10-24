@@ -1,0 +1,42 @@
+ <style>
+ 
+
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #2bccd1;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .input-group input:focus {
+            border-color: #2bccd1;
+            outline: none;
+        }
+
+        .botones {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        input[type="button"] {
+            background-color: #0897cf;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .resultado {
+            background-color: #2bccd15d;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: #000000;
+        }
+    </style>
