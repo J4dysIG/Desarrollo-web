@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas Utiles</title>
+    <link rel="stylesheet" href="Actividad6_css.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Herramientas Útiles</h1>
+            <p>Conversor de unidades y registro de empresas</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="nav-tabs">
+            <button class="tab-button active" data-tab="converter">Conversor de Unidades</button>
+            <button class="tab-button" data-tab="companies">Registro de Empresas</button>
+        </div>
+        
+        <div id="converter" class="tab-content active">
+            <h2>Conversor de Unidades de Longitud</h2>
+            <p>Convierte entre milímetros, centímetros y metros.</p>
+            
+            <div class="converter">
+                <div class="input-group">
+                    <label for="value">Valor a convertir:</label>
+                    <input type="number" id="value" placeholder="Ingresa el valor" step="any">
+                </div>
+                
+                <div class="input-group">
+                    <label for="from-unit">De:</label>
+                    <select id="from-unit">
+                        <option value="mm">Milímetros (mm)</option>
+                        <option value="cm" selected>Centímetros (cm)</option>
+                        <option value="m">Metros (m)</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label for="to-unit">A:</label>
+                    <select id="to-unit">
+                        <option value="mm">Milímetros (mm)</option>
+                        <option value="cm">Centímetros (cm)</option>
+                        <option value="m" selected>Metros (m)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <button id="convert-btn">Convertir</button>
+            
+            <div class="results" id="conversion-results">
+                <div class="result-item">
+                    <strong>Resultado:</strong> <span id="result-value">-</span>
+                </div>
+                <div class="result-item">
+                    <strong>Conversión completa:</strong>
+                    <div id="full-conversion"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="companies" class="tab-content">
+            <h2>Registro de Empresas</h2>
+            <p>Ingresa los datos de la empresa para agregarla a la lista.</p>
+            
+            <form id="company-form">
+                <div class="form-group">
+                    <label for="folio">Folio:</label>
+                    <input type="text" id="folio" placeholder="Ingresa el folio" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="name">Nombre de la empresa:</label>
+                    <input type="text" id="name" placeholder="Ingresa el nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Domicilio:</label>
+                    <input type="text" id="address" placeholder="Ingresa el domicilio" required>
+                </div>
+                
+                <button type="submit" class="btn-success">Agregar Empresa</button>
+            </form>
+            
+            <div class="company-list">
+                <h3>Lista de Empresas Registradas</h3>
+                <div id="companies-list">
+                    <div class="empty-message">No hay empresas registradas aún.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Herramientas Útiles - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="Actividad6_JS.js"></script>
+</body>
+</html>
