@@ -1,0 +1,31 @@
+[
+  {
+    "nombre": "Jose Adrian",
+    "peso": 72,
+    "altura": 1.80,
+    "gordura": 12,
+    "imc": 24.69
+  },
+  {
+    "nombre": "Maria Jose",
+    "peso": 65,
+    "altura": 1.70,
+    "gordura": 1,
+    "imc": 23.87
+  },
+  {
+    "nombre": "Jesus Garcia",
+    "peso": 72,
+    "altura": 1.75,
+    "gordura": 30,
+    "imc": 31.02
+  },
+
+    {
+    "nombre": "Ernesto Ruiz",
+    "peso": 60,
+    "altura": 1.75,
+    "gordura": 30,
+    "imc": 31.02
+  }
+]
