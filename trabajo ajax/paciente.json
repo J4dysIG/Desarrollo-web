@@ -20,12 +20,12 @@
     "gordura": 30,
     "imc": 31.02
   },
-
-    {
+  {
     "nombre": "Ernesto Ruiz",
     "peso": 60,
     "altura": 1.75,
     "gordura": 30,
     "imc": 31.02
   }
+
 ]
